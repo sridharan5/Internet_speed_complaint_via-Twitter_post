@@ -55,7 +55,7 @@ def message(content):
         '2]/div/div[2]/div[1]/div/div/div/div[2]/div[4]/div/div/div[2]/div['
         '3]/div/span/span').click()
 
-if download and upload > 10:
+if download and upload > SERVICE_PROVIDER_PROMISED_INTERNET_SPEED:
     # PASS THE VALUE WHAT YOU WANT TO POST ON YOUR TWITTER
     message(f'My Download internet speed is {download}mpbs and Upload internet speed is {upload}mpbs.\n Good internet speed :)')
 else:
